@@ -3,7 +3,7 @@ const bodyParser = require("body-parser");
 const cors = require("cors");
 
 const app = express();
-const port = 15023;
+const port = 15024;
 
 let currentStatus = "unknown"; // LED 상태 저장
 
